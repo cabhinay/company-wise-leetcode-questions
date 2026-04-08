@@ -198,6 +198,8 @@ function build() {
           title: q.title,
           difficulty: q.difficulty,
           url: q.url,
+          topic: q.topic || 'Other',
+          topicTags: q.topicTags || [],
           companies: [],
         };
       }

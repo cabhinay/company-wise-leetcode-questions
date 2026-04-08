@@ -20,8 +20,8 @@ export function tierColor(tier) {
 }
 
 export function difficultyColor(d) {
-  if (d === 'Easy') return 'text-green-400';
-  if (d === 'Medium') return 'text-yellow-400';
-  if (d === 'Hard') return 'text-red-400';
-  return 'text-gray-400';
+  if (d === 'Easy') return 'text-green-600 dark:text-green-400';
+  if (d === 'Medium') return 'text-yellow-600 dark:text-yellow-400';
+  if (d === 'Hard') return 'text-red-600 dark:text-red-400';
+  return 'text-gray-500 dark:text-gray-400';
 }

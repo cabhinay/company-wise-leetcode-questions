@@ -30,14 +30,14 @@ export default function HomePage() {
   }, [filtered]);
 
   if (loading) {
-    return <div className="text-center py-20 text-gray-500">Loading companies...</div>;
+    return <div className="text-center py-20 text-gray-400 dark:text-gray-500">Loading companies...</div>;
   }
 
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white mb-2">LeetCode Company Questions</h1>
-        <p className="text-gray-400">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">LeetCode Company Questions</h1>
+        <p className="text-gray-500 dark:text-gray-400">
           Browse interview questions from {companies.length} top companies, curated by tier.
         </p>
       </div>
@@ -49,12 +49,12 @@ export default function HomePage() {
           placeholder="Search companies..."
           value={search}
           onChange={e => setSearch(e.target.value)}
-          className="flex-1 bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500"
+          className="flex-1 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:border-indigo-500"
         />
         <select
           value={tierFilter}
           onChange={e => setTierFilter(e.target.value)}
-          className="bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-indigo-500"
+          className="bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-gray-900 dark:text-white focus:outline-none focus:border-indigo-500"
         >
           <option value="all">All Tiers</option>
           {TIER_ORDER.map(t => (
@@ -69,9 +69,9 @@ export default function HomePage() {
         if (!list || list.length === 0) return null;
         return (
           <section key={tier} className="mb-10">
-            <h2 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
               {tierLabel(tier)}
-              <span className="text-sm text-gray-500 font-normal">({list.length})</span>
+              <span className="text-sm text-gray-400 dark:text-gray-500 font-normal">({list.length})</span>
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {list.map(c => (
@@ -89,7 +89,7 @@ export default function HomePage() {
       })}
 
       {filtered.length === 0 && (
-        <p className="text-center text-gray-500 py-12">No companies match your search.</p>
+        <p className="text-center text-gray-400 dark:text-gray-500 py-12">No companies match your search.</p>
       )}
     </div>
   );

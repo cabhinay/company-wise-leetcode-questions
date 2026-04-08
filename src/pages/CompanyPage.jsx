@@ -24,17 +24,17 @@ export default function CompanyPage() {
   const questions = data?.[period] || [];
 
   if (loading) {
-    return <div className="text-center py-20 text-gray-500">Loading questions...</div>;
+    return <div className="text-center py-20 text-gray-400 dark:text-gray-500">Loading questions...</div>;
   }
 
   return (
     <div>
-      <Link to="/" className="text-sm text-gray-400 hover:text-indigo-400 mb-4 inline-block">
+      <Link to="/" className="text-sm text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 mb-4 inline-block">
         ← Back to companies
       </Link>
 
       <div className="flex items-center gap-3 mb-6">
-        <h1 className="text-3xl font-bold text-white">{company?.name || slug}</h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">{company?.name || slug}</h1>
         {company && (
           <span className={`text-xs px-2 py-1 rounded-full text-white font-medium ${tierColor(company.tier)}`}>
             {tierLabel(company.tier)}

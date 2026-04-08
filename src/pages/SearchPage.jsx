@@ -30,13 +30,13 @@ export default function SearchPage() {
   }, [index, search, diffFilter]);
 
   if (loading) {
-    return <div className="text-center py-20 text-gray-500">Loading question index...</div>;
+    return <div className="text-center py-20 text-gray-400 dark:text-gray-500">Loading question index...</div>;
   }
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-white mb-2">Search Questions</h1>
-      <p className="text-gray-400 mb-6">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Search Questions</h1>
+      <p className="text-gray-500 dark:text-gray-400 mb-6">
         Search {Object.keys(index).length} unique questions across all companies.
       </p>
 
@@ -46,7 +46,7 @@ export default function SearchPage() {
           placeholder="Search by question title..."
           value={search}
           onChange={e => setSearch(e.target.value)}
-          className="flex-1 bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500"
+          className="flex-1 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:border-indigo-500"
         />
         <div className="flex gap-1">
           {['All', 'Easy', 'Medium', 'Hard'].map(d => (
@@ -54,7 +54,7 @@ export default function SearchPage() {
               key={d}
               onClick={() => setDiffFilter(d)}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                diffFilter === d ? 'bg-indigo-600 text-white' : 'bg-gray-800 text-gray-400 hover:text-white'
+                diffFilter === d ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
               }`}
             >
               {d}
@@ -64,21 +64,21 @@ export default function SearchPage() {
       </div>
 
       {!search.trim() ? (
-        <p className="text-center text-gray-500 py-12">Type a question title to search.</p>
+        <p className="text-center text-gray-400 dark:text-gray-500 py-12">Type a question title to search.</p>
       ) : results.length === 0 ? (
-        <p className="text-center text-gray-500 py-12">No questions found.</p>
+        <p className="text-center text-gray-400 dark:text-gray-500 py-12">No questions found.</p>
       ) : (
         <div className="space-y-3">
           {results.map(q => (
-            <div key={q.id} className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+            <div key={q.id} className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-4">
               <div className="flex items-start justify-between gap-3 mb-2">
                 <div>
-                  <span className="text-gray-500 text-sm mr-2">#{q.id}</span>
+                  <span className="text-gray-400 dark:text-gray-500 text-sm mr-2">#{q.id}</span>
                   <a
                     href={q.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-indigo-400 hover:text-indigo-300 font-medium hover:underline"
+                    className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 font-medium hover:underline"
                   >
                     {q.title}
                   </a>
@@ -93,7 +93,7 @@ export default function SearchPage() {
             </div>
           ))}
           {results.length === 100 && (
-            <p className="text-center text-gray-500 text-sm">Showing first 100 results. Refine your search.</p>
+            <p className="text-center text-gray-400 dark:text-gray-500 text-sm">Showing first 100 results. Refine your search.</p>
           )}
         </div>
       )}
