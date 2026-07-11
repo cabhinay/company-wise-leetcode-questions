@@ -1,1 +1,137 @@
-{"all":[{"id":41,"url":"https://leetcode.com/problems/first-missing-positive","title":"First Missing Positive","difficulty":"Hard","acceptance":"42.4","frequency":"87.5","topic":"Hash Table","topicTags":["Array","Hash Table"]},{"id":76,"url":"https://leetcode.com/problems/minimum-window-substring","title":"Minimum Window Substring","difficulty":"Hard","acceptance":"46.9","frequency":"87.5","topic":"Sliding Window","topicTags":["Hash Table","String","Sliding Window"]},{"id":16,"url":"https://leetcode.com/problems/3sum-closest","title":"3Sum Closest","difficulty":"Medium","acceptance":"48.0","frequency":"100.0","topic":"Two Pointers","topicTags":["Array","Two Pointers","Sorting"]}],"thirtyDays":[],"threeMonths":[],"sixMonths":[{"id":16,"url":"https://leetcode.com/problems/3sum-closest","title":"3Sum Closest","difficulty":"Medium","acceptance":"48.0","frequency":"100.0","topic":"Two Pointers","topicTags":["Array","Two Pointers","Sorting"]}],"moreThanSixMonths":[{"id":76,"url":"https://leetcode.com/problems/minimum-window-substring","title":"Minimum Window Substring","difficulty":"Hard","acceptance":"46.9","frequency":"100.0","topic":"Sliding Window","topicTags":["Hash Table","String","Sliding Window"]}]}
+{
+    "all": [
+        {
+            "id": 16,
+            "url": "https://leetcode.com/problems/3sum-closest",
+            "title": "3Sum Closest",
+            "difficulty": "Medium",
+            "acceptance": "48.9",
+            "frequency": "100.0",
+            "topic": "Two Pointers",
+            "topicTags": [
+                "Array",
+                "Two Pointers",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 41,
+            "url": "https://leetcode.com/problems/first-missing-positive",
+            "title": "First Missing Positive",
+            "difficulty": "Hard",
+            "acceptance": "43.2",
+            "frequency": "87.5",
+            "topic": "Hash Table",
+            "topicTags": [
+                "Array",
+                "Hash Table"
+            ]
+        },
+        {
+            "id": 76,
+            "url": "https://leetcode.com/problems/minimum-window-substring",
+            "title": "Minimum Window Substring",
+            "difficulty": "Hard",
+            "acceptance": "47.9",
+            "frequency": "87.5",
+            "topic": "Sliding Window",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Sliding Window"
+            ]
+        },
+        {
+            "id": 395,
+            "url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters",
+            "title": "Longest Substring with At Least K Repeating Characters",
+            "difficulty": "Medium",
+            "acceptance": "46.4",
+            "frequency": "87.5",
+            "topic": "Sliding Window",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Divide and Conquer",
+                "Sliding Window"
+            ]
+        },
+        {
+            "id": 3878,
+            "url": "https://leetcode.com/problems/count-good-subarrays",
+            "title": "Count Good Subarrays",
+            "difficulty": "Hard",
+            "acceptance": "25.5",
+            "frequency": "87.5",
+            "topic": "Array",
+            "topicTags": [
+                "Array",
+                "Stack",
+                "Bit Manipulation",
+                "Monotonic Stack"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+        {
+            "id": 3878,
+            "url": "https://leetcode.com/problems/count-good-subarrays",
+            "title": "Count Good Subarrays",
+            "difficulty": "Hard",
+            "acceptance": "25.5",
+            "frequency": "100.0",
+            "topic": "Array",
+            "topicTags": [
+                "Array",
+                "Stack",
+                "Bit Manipulation",
+                "Monotonic Stack"
+            ]
+        }
+    ],
+    "moreThanSixMonths": [
+        {
+            "id": 16,
+            "url": "https://leetcode.com/problems/3sum-closest",
+            "title": "3Sum Closest",
+            "difficulty": "Medium",
+            "acceptance": "48.9",
+            "frequency": "100.0",
+            "topic": "Two Pointers",
+            "topicTags": [
+                "Array",
+                "Two Pointers",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 41,
+            "url": "https://leetcode.com/problems/first-missing-positive",
+            "title": "First Missing Positive",
+            "difficulty": "Hard",
+            "acceptance": "43.2",
+            "frequency": "100.0",
+            "topic": "Hash Table",
+            "topicTags": [
+                "Array",
+                "Hash Table"
+            ]
+        },
+        {
+            "id": 76,
+            "url": "https://leetcode.com/problems/minimum-window-substring",
+            "title": "Minimum Window Substring",
+            "difficulty": "Hard",
+            "acceptance": "47.9",
+            "frequency": "100.0",
+            "topic": "Sliding Window",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Sliding Window"
+            ]
+        }
+    ]
+}

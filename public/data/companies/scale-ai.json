@@ -1,1 +1,21 @@
-{"all":[{"id":560,"url":"https://leetcode.com/problems/subarray-sum-equals-k","title":"Subarray Sum Equals K","difficulty":"Medium","acceptance":"46.8","frequency":"100.0","topic":"Hash Table","topicTags":["Array","Hash Table","Prefix Sum"]}],"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[{"id":560,"url":"https://leetcode.com/problems/subarray-sum-equals-k","title":"Subarray Sum Equals K","difficulty":"Medium","acceptance":"46.8","frequency":"100.0","topic":"Hash Table","topicTags":["Array","Hash Table","Prefix Sum"]}]}
+{
+    "all": [
+        {
+            "id": 134,
+            "url": "https://leetcode.com/problems/gas-station",
+            "title": "Gas Station",
+            "difficulty": "Medium",
+            "acceptance": "48.3",
+            "frequency": "100.0",
+            "topic": "Greedy",
+            "topicTags": [
+                "Array",
+                "Greedy"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "moreThanSixMonths": []
+}

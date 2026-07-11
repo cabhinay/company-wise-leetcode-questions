@@ -1,1 +1,127 @@
-{"all":[{"id":2101,"url":"https://leetcode.com/problems/detonate-the-maximum-bombs","title":"Detonate the Maximum Bombs","difficulty":"Medium","acceptance":"49.9","frequency":"100.0","topic":"Depth-First Search","topicTags":["Array","Math","Depth-First Search","Breadth-First Search","Graph Theory","Geometry"]},{"id":17,"url":"https://leetcode.com/problems/letter-combinations-of-a-phone-number","title":"Letter Combinations of a Phone Number","difficulty":"Medium","acceptance":"65.5","frequency":"75.0","topic":"Backtracking","topicTags":["Hash Table","String","Backtracking"]},{"id":1472,"url":"https://leetcode.com/problems/design-browser-history","title":"Design Browser History","difficulty":"Medium","acceptance":"78.2","frequency":"100.0","topic":"Linked List","topicTags":["Array","Linked List","Stack","Design","Doubly-Linked List","Data Stream"]}],"thirtyDays":[{"id":1472,"url":"https://leetcode.com/problems/design-browser-history","title":"Design Browser History","difficulty":"Medium","acceptance":"78.2","frequency":"100.0","topic":"Linked List","topicTags":["Array","Linked List","Stack","Design","Doubly-Linked List","Data Stream"]}],"threeMonths":[{"id":1472,"url":"https://leetcode.com/problems/design-browser-history","title":"Design Browser History","difficulty":"Medium","acceptance":"78.2","frequency":"100.0","topic":"Linked List","topicTags":["Array","Linked List","Stack","Design","Doubly-Linked List","Data Stream"]}],"sixMonths":[{"id":1472,"url":"https://leetcode.com/problems/design-browser-history","title":"Design Browser History","difficulty":"Medium","acceptance":"78.2","frequency":"100.0","topic":"Linked List","topicTags":["Array","Linked List","Stack","Design","Doubly-Linked List","Data Stream"]}],"moreThanSixMonths":[{"id":2101,"url":"https://leetcode.com/problems/detonate-the-maximum-bombs","title":"Detonate the Maximum Bombs","difficulty":"Medium","acceptance":"49.9","frequency":"100.0","topic":"Depth-First Search","topicTags":["Array","Math","Depth-First Search","Breadth-First Search","Graph Theory","Geometry"]},{"id":17,"url":"https://leetcode.com/problems/letter-combinations-of-a-phone-number","title":"Letter Combinations of a Phone Number","difficulty":"Medium","acceptance":"65.5","frequency":"75.0","topic":"Backtracking","topicTags":["Hash Table","String","Backtracking"]},{"id":1472,"url":"https://leetcode.com/problems/design-browser-history","title":"Design Browser History","difficulty":"Medium","acceptance":"78.2","frequency":"75.0","topic":"Linked List","topicTags":["Array","Linked List","Stack","Design","Doubly-Linked List","Data Stream"]}]}
+{
+    "all": [
+        {
+            "id": 739,
+            "url": "https://leetcode.com/problems/daily-temperatures",
+            "title": "Daily Temperatures",
+            "difficulty": "Medium",
+            "acceptance": "68.9",
+            "frequency": "62.5",
+            "topic": "Stack",
+            "topicTags": [
+                "Array",
+                "Stack",
+                "Monotonic Stack"
+            ]
+        },
+        {
+            "id": 1472,
+            "url": "https://leetcode.com/problems/design-browser-history",
+            "title": "Design Browser History",
+            "difficulty": "Medium",
+            "acceptance": "78.4",
+            "frequency": "100.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Array",
+                "Linked List",
+                "Stack",
+                "Design",
+                "Doubly-Linked List",
+                "Data Stream"
+            ]
+        },
+        {
+            "id": 2101,
+            "url": "https://leetcode.com/problems/detonate-the-maximum-bombs",
+            "title": "Detonate the Maximum Bombs",
+            "difficulty": "Medium",
+            "acceptance": "50.3",
+            "frequency": "87.5",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Math",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Graph Theory",
+                "Geometry"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [
+        {
+            "id": 1472,
+            "url": "https://leetcode.com/problems/design-browser-history",
+            "title": "Design Browser History",
+            "difficulty": "Medium",
+            "acceptance": "78.4",
+            "frequency": "100.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Array",
+                "Linked List",
+                "Stack",
+                "Design",
+                "Doubly-Linked List",
+                "Data Stream"
+            ]
+        }
+    ],
+    "sixMonths": [
+        {
+            "id": 1472,
+            "url": "https://leetcode.com/problems/design-browser-history",
+            "title": "Design Browser History",
+            "difficulty": "Medium",
+            "acceptance": "78.4",
+            "frequency": "100.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Array",
+                "Linked List",
+                "Stack",
+                "Design",
+                "Doubly-Linked List",
+                "Data Stream"
+            ]
+        }
+    ],
+    "moreThanSixMonths": [
+        {
+            "id": 1472,
+            "url": "https://leetcode.com/problems/design-browser-history",
+            "title": "Design Browser History",
+            "difficulty": "Medium",
+            "acceptance": "78.4",
+            "frequency": "87.5",
+            "topic": "Linked List",
+            "topicTags": [
+                "Array",
+                "Linked List",
+                "Stack",
+                "Design",
+                "Doubly-Linked List",
+                "Data Stream"
+            ]
+        },
+        {
+            "id": 2101,
+            "url": "https://leetcode.com/problems/detonate-the-maximum-bombs",
+            "title": "Detonate the Maximum Bombs",
+            "difficulty": "Medium",
+            "acceptance": "50.3",
+            "frequency": "100.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Math",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Graph Theory",
+                "Geometry"
+            ]
+        }
+    ]
+}

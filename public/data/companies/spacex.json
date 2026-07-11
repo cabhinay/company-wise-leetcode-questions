@@ -1,1 +1,37 @@
-{"all":[{"id":64,"url":"https://leetcode.com/problems/minimum-path-sum","title":"Minimum Path Sum","difficulty":"Medium","acceptance":"67.8","frequency":"100.0","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Matrix"]}],"thirtyDays":[{"id":64,"url":"https://leetcode.com/problems/minimum-path-sum","title":"Minimum Path Sum","difficulty":"Medium","acceptance":"67.8","frequency":"100.0","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Matrix"]}],"threeMonths":[{"id":64,"url":"https://leetcode.com/problems/minimum-path-sum","title":"Minimum Path Sum","difficulty":"Medium","acceptance":"67.8","frequency":"100.0","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Matrix"]}],"sixMonths":[{"id":64,"url":"https://leetcode.com/problems/minimum-path-sum","title":"Minimum Path Sum","difficulty":"Medium","acceptance":"67.8","frequency":"100.0","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Matrix"]}],"moreThanSixMonths":[]}
+{
+    "all": [
+        {
+            "id": 64,
+            "url": "https://leetcode.com/problems/minimum-path-sum",
+            "title": "Minimum Path Sum",
+            "difficulty": "Medium",
+            "acceptance": "68.5",
+            "frequency": "100.0",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Matrix"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+        {
+            "id": 64,
+            "url": "https://leetcode.com/problems/minimum-path-sum",
+            "title": "Minimum Path Sum",
+            "difficulty": "Medium",
+            "acceptance": "68.5",
+            "frequency": "100.0",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Matrix"
+            ]
+        }
+    ],
+    "moreThanSixMonths": []
+}

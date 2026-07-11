@@ -1,1 +1,757 @@
-{"all":[{"id":4,"url":"https://leetcode.com/problems/median-of-two-sorted-arrays","title":"Median of Two Sorted Arrays","difficulty":"Hard","acceptance":"45.9","frequency":"100.0","topic":"Binary Search","topicTags":["Array","Binary Search","Divide and Conquer"]},{"id":399,"url":"https://leetcode.com/problems/evaluate-division","title":"Evaluate Division","difficulty":"Medium","acceptance":"64.0","frequency":"75.0","topic":"Depth-First Search","topicTags":["Array","String","Depth-First Search","Breadth-First Search","Union-Find","Graph Theory","Shortest Path"]},{"id":1258,"url":"https://leetcode.com/problems/synonymous-sentences","title":"Synonymous Sentences","difficulty":"Medium","acceptance":"57.1","frequency":"62.5","topic":"Backtracking","topicTags":["Array","Hash Table","String","Backtracking","Sort","Union-Find"]},{"id":631,"url":"https://leetcode.com/problems/design-excel-sum-formula","title":"Design Excel Sum Formula","difficulty":"Hard","acceptance":"39.8","frequency":"87.5","topic":"Topological Sort","topicTags":["Array","Hash Table","String","Graph Theory","Design","Topological Sort","Matrix"]},{"id":1046,"url":"https://leetcode.com/problems/last-stone-weight","title":"Last Stone Weight","difficulty":"Easy","acceptance":"66.3","frequency":"50.0","topic":"Heap (Priority Queue)","topicTags":["Array","Heap (Priority Queue)"]},{"id":465,"url":"https://leetcode.com/problems/optimal-account-balancing","title":"Optimal Account Balancing","difficulty":"Hard","acceptance":"50.3","frequency":"62.5","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Backtracking","Bit Manipulation","Bitmask"]},{"id":1944,"url":"https://leetcode.com/problems/number-of-visible-people-in-a-queue","title":"Number of Visible People in a Queue","difficulty":"Hard","acceptance":"72.3","frequency":"62.5","topic":"Stack","topicTags":["Array","Stack","Monotonic Stack"]},{"id":721,"url":"https://leetcode.com/problems/accounts-merge","title":"Accounts Merge","difficulty":"Medium","acceptance":"60.9","frequency":"50.0","topic":"Depth-First Search","topicTags":["Array","Hash Table","String","Depth-First Search","Breadth-First Search","Union-Find","Sorting"]},{"id":380,"url":"https://leetcode.com/problems/insert-delete-getrandom-o1","title":"Insert Delete GetRandom O(1)","difficulty":"Medium","acceptance":"55.3","frequency":"50.0","topic":"Design","topicTags":["Array","Hash Table","Math","Design","Randomized"]},{"id":460,"url":"https://leetcode.com/problems/lfu-cache","title":"LFU Cache","difficulty":"Hard","acceptance":"48.6","frequency":"50.0","topic":"Linked List","topicTags":["Hash Table","Linked List","Design","Doubly-Linked List"]},{"id":21,"url":"https://leetcode.com/problems/merge-two-sorted-lists","title":"Merge Two Sorted Lists","difficulty":"Easy","acceptance":"67.9","frequency":"62.5","topic":"Linked List","topicTags":["Linked List","Recursion"]},{"id":3484,"url":"https://leetcode.com/problems/design-spreadsheet","title":"Design Spreadsheet","difficulty":"Medium","acceptance":"74.3","frequency":"87.5","topic":"Design","topicTags":["Array","Hash Table","String","Design","Matrix"]},{"id":3387,"url":"https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions","title":"Maximize Amount After Two Days of Conversions","difficulty":"Medium","acceptance":"61.1","frequency":"62.5","topic":"Depth-First Search","topicTags":["Array","String","Depth-First Search","Breadth-First Search","Graph Theory"]},{"id":2939,"url":"https://leetcode.com/problems/maximum-xor-product","title":"Maximum Xor Product","difficulty":"Medium","acceptance":"29.5","frequency":"62.5","topic":"Greedy","topicTags":["Math","Greedy","Bit Manipulation"]},{"id":1326,"url":"https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden","title":"Minimum Number of Taps to Open to Water a Garden","difficulty":"Hard","acceptance":"51.0","frequency":"50.0","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Greedy"]},{"id":1396,"url":"https://leetcode.com/problems/design-underground-system","title":"Design Underground System","difficulty":"Medium","acceptance":"74.4","frequency":"50.0","topic":"Design","topicTags":["Hash Table","String","Design"]},{"id":23,"url":"https://leetcode.com/problems/merge-k-sorted-lists","title":"Merge k Sorted Lists","difficulty":"Hard","acceptance":"58.8","frequency":"75.0","topic":"Linked List","topicTags":["Linked List","Divide and Conquer","Heap (Priority Queue)","Merge Sort"]},{"id":347,"url":"https://leetcode.com/problems/top-k-frequent-elements","title":"Top K Frequent Elements","difficulty":"Medium","acceptance":"65.8","frequency":"50.0","topic":"Heap (Priority Queue)","topicTags":["Array","Hash Table","Divide and Conquer","Sorting","Heap (Priority Queue)","Bucket Sort","Counting","Quickselect"]},{"id":737,"url":"https://leetcode.com/problems/sentence-similarity-ii","title":"Sentence Similarity II","difficulty":"Medium","acceptance":"51.1","frequency":"50.0","topic":"Depth-First Search","topicTags":["Array","Hash Table","String","Depth-First Search","Breadth-First Search","Union-Find"]},{"id":692,"url":"https://leetcode.com/problems/top-k-frequent-words","title":"Top K Frequent Words","difficulty":"Medium","acceptance":"60.0","frequency":"50.0","topic":"Trie","topicTags":["Array","Hash Table","String","Trie","Sorting","Heap (Priority Queue)","Bucket Sort","Counting"]},{"id":146,"url":"https://leetcode.com/problems/lru-cache","title":"LRU Cache","difficulty":"Medium","acceptance":"46.8","frequency":"50.0","topic":"Linked List","topicTags":["Hash Table","Linked List","Design","Doubly-Linked List"]},{"id":56,"url":"https://leetcode.com/problems/merge-intervals","title":"Merge Intervals","difficulty":"Medium","acceptance":"51.1","frequency":"50.0","topic":"Sorting","topicTags":["Array","Sorting"]}],"thirtyDays":[],"threeMonths":[{"id":4,"url":"https://leetcode.com/problems/median-of-two-sorted-arrays","title":"Median of Two Sorted Arrays","difficulty":"Hard","acceptance":"45.9","frequency":"100.0","topic":"Binary Search","topicTags":["Array","Binary Search","Divide and Conquer"]},{"id":23,"url":"https://leetcode.com/problems/merge-k-sorted-lists","title":"Merge k Sorted Lists","difficulty":"Hard","acceptance":"58.8","frequency":"87.5","topic":"Linked List","topicTags":["Linked List","Divide and Conquer","Heap (Priority Queue)","Merge Sort"]}],"sixMonths":[{"id":4,"url":"https://leetcode.com/problems/median-of-two-sorted-arrays","title":"Median of Two Sorted Arrays","difficulty":"Hard","acceptance":"45.9","frequency":"100.0","topic":"Binary Search","topicTags":["Array","Binary Search","Divide and Conquer"]},{"id":23,"url":"https://leetcode.com/problems/merge-k-sorted-lists","title":"Merge k Sorted Lists","difficulty":"Hard","acceptance":"58.8","frequency":"87.5","topic":"Linked List","topicTags":["Linked List","Divide and Conquer","Heap (Priority Queue)","Merge Sort"]},{"id":347,"url":"https://leetcode.com/problems/top-k-frequent-elements","title":"Top K Frequent Elements","difficulty":"Medium","acceptance":"65.8","frequency":"62.5","topic":"Heap (Priority Queue)","topicTags":["Array","Hash Table","Divide and Conquer","Sorting","Heap (Priority Queue)","Bucket Sort","Counting","Quickselect"]},{"id":737,"url":"https://leetcode.com/problems/sentence-similarity-ii","title":"Sentence Similarity II","difficulty":"Medium","acceptance":"51.1","frequency":"62.5","topic":"Depth-First Search","topicTags":["Array","Hash Table","String","Depth-First Search","Breadth-First Search","Union-Find"]},{"id":21,"url":"https://leetcode.com/problems/merge-two-sorted-lists","title":"Merge Two Sorted Lists","difficulty":"Easy","acceptance":"67.9","frequency":"75.0","topic":"Linked List","topicTags":["Linked List","Recursion"]},{"id":146,"url":"https://leetcode.com/problems/lru-cache","title":"LRU Cache","difficulty":"Medium","acceptance":"46.8","frequency":"62.5","topic":"Linked List","topicTags":["Hash Table","Linked List","Design","Doubly-Linked List"]},{"id":1258,"url":"https://leetcode.com/problems/synonymous-sentences","title":"Synonymous Sentences","difficulty":"Medium","acceptance":"57.1","frequency":"62.5","topic":"Backtracking","topicTags":["Array","Hash Table","String","Backtracking","Sort","Union-Find"]}],"moreThanSixMonths":[{"id":4,"url":"https://leetcode.com/problems/median-of-two-sorted-arrays","title":"Median of Two Sorted Arrays","difficulty":"Hard","acceptance":"45.9","frequency":"87.5","topic":"Binary Search","topicTags":["Array","Binary Search","Divide and Conquer"]},{"id":399,"url":"https://leetcode.com/problems/evaluate-division","title":"Evaluate Division","difficulty":"Medium","acceptance":"64.0","frequency":"87.5","topic":"Depth-First Search","topicTags":["Array","String","Depth-First Search","Breadth-First Search","Union-Find","Graph Theory","Shortest Path"]},{"id":631,"url":"https://leetcode.com/problems/design-excel-sum-formula","title":"Design Excel Sum Formula","difficulty":"Hard","acceptance":"39.8","frequency":"100.0","topic":"Topological Sort","topicTags":["Array","Hash Table","String","Graph Theory","Design","Topological Sort","Matrix"]},{"id":1046,"url":"https://leetcode.com/problems/last-stone-weight","title":"Last Stone Weight","difficulty":"Easy","acceptance":"66.3","frequency":"62.5","topic":"Heap (Priority Queue)","topicTags":["Array","Heap (Priority Queue)"]},{"id":465,"url":"https://leetcode.com/problems/optimal-account-balancing","title":"Optimal Account Balancing","difficulty":"Hard","acceptance":"50.3","frequency":"62.5","topic":"Dynamic Programming","topicTags":["Array","Dynamic Programming","Backtracking","Bit Manipulation","Bitmask"]},{"id":721,"url":"https://leetcode.com/problems/accounts-merge","title":"Accounts Merge","difficulty":"Medium","acceptance":"60.9","frequency":"62.5","topic":"Depth-First Search","topicTags":["Array","Hash Table","String","Depth-First Search","Breadth-First Search","Union-Find","Sorting"]},{"id":1944,"url":"https://leetcode.com/problems/number-of-visible-people-in-a-queue","title":"Number of Visible People in a Queue","difficulty":"Hard","acceptance":"72.3","frequency":"75.0","topic":"Stack","topicTags":["Array","Stack","Monotonic Stack"]},{"id":3387,"url":"https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions","title":"Maximize Amount After Two Days of Conversions","difficulty":"Medium","acceptance":"61.1","frequency":"62.5","topic":"Depth-First Search","topicTags":["Array","String","Depth-First Search","Breadth-First Search","Graph Theory"]},{"id":380,"url":"https://leetcode.com/problems/insert-delete-getrandom-o1","title":"Insert Delete GetRandom O(1)","difficulty":"Medium","acceptance":"55.3","frequency":"62.5","topic":"Design","topicTags":["Array","Hash Table","Math","Design","Randomized"]},{"id":460,"url":"https://leetcode.com/problems/lfu-cache","title":"LFU Cache","difficulty":"Hard","acceptance":"48.6","frequency":"62.5","topic":"Linked List","topicTags":["Hash Table","Linked List","Design","Doubly-Linked List"]},{"id":3484,"url":"https://leetcode.com/problems/design-spreadsheet","title":"Design Spreadsheet","difficulty":"Medium","acceptance":"74.3","frequency":"100.0","topic":"Design","topicTags":["Array","Hash Table","String","Design","Matrix"]},{"id":2939,"url":"https://leetcode.com/problems/maximum-xor-product","title":"Maximum Xor Product","difficulty":"Medium","acceptance":"29.5","frequency":"62.5","topic":"Greedy","topicTags":["Math","Greedy","Bit Manipulation"]},{"id":56,"url":"https://leetcode.com/problems/merge-intervals","title":"Merge Intervals","difficulty":"Medium","acceptance":"51.1","frequency":"62.5","topic":"Sorting","topicTags":["Array","Sorting"]}]}
+{
+    "all": [
+        {
+            "id": 3,
+            "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+            "title": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "acceptance": "39.4",
+            "frequency": "50.0",
+            "topic": "Sliding Window",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Sliding Window"
+            ]
+        },
+        {
+            "id": 4,
+            "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+            "title": "Median of Two Sorted Arrays",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Binary Search",
+            "topicTags": [
+                "Array",
+                "Binary Search",
+                "Divide and Conquer"
+            ]
+        },
+        {
+            "id": 21,
+            "url": "https://leetcode.com/problems/merge-two-sorted-lists",
+            "title": "Merge Two Sorted Lists",
+            "difficulty": "Easy",
+            "acceptance": "68.5",
+            "frequency": "62.5",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "Recursion"
+            ]
+        },
+        {
+            "id": 23,
+            "url": "https://leetcode.com/problems/merge-k-sorted-lists",
+            "title": "Merge k Sorted Lists",
+            "difficulty": "Hard",
+            "acceptance": "60.0",
+            "frequency": "75.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "Divide and Conquer",
+                "Heap (Priority Queue)",
+                "Merge Sort"
+            ]
+        },
+        {
+            "id": 56,
+            "url": "https://leetcode.com/problems/merge-intervals",
+            "title": "Merge Intervals",
+            "difficulty": "Medium",
+            "acceptance": "52.2",
+            "frequency": "50.0",
+            "topic": "Sorting",
+            "topicTags": [
+                "Array",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 146,
+            "url": "https://leetcode.com/problems/lru-cache",
+            "title": "LRU Cache",
+            "difficulty": "Medium",
+            "acceptance": "47.6",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Hash Table",
+                "Linked List",
+                "Design",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 347,
+            "url": "https://leetcode.com/problems/top-k-frequent-elements",
+            "title": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "acceptance": "66.8",
+            "frequency": "50.0",
+            "topic": "Heap (Priority Queue)",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "Divide and Conquer",
+                "Sorting",
+                "Heap (Priority Queue)",
+                "Bucket Sort",
+                "Counting",
+                "Quickselect"
+            ]
+        },
+        {
+            "id": 399,
+            "url": "https://leetcode.com/problems/evaluate-division",
+            "title": "Evaluate Division",
+            "difficulty": "Medium",
+            "acceptance": "64.4",
+            "frequency": "62.5",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find",
+                "Graph Theory",
+                "Shortest Path"
+            ]
+        },
+        {
+            "id": 460,
+            "url": "https://leetcode.com/problems/lfu-cache",
+            "title": "LFU Cache",
+            "difficulty": "Hard",
+            "acceptance": "49.7",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Hash Table",
+                "Linked List",
+                "Design",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 465,
+            "url": "https://leetcode.com/problems/optimal-account-balancing",
+            "title": "Optimal Account Balancing",
+            "difficulty": "Hard",
+            "acceptance": "50.5",
+            "frequency": "50.0",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Backtracking",
+                "Bit Manipulation",
+                "Bitmask"
+            ]
+        },
+        {
+            "id": 631,
+            "url": "https://leetcode.com/problems/design-excel-sum-formula",
+            "title": "Design Excel Sum Formula",
+            "difficulty": "Hard",
+            "acceptance": "39.6",
+            "frequency": "75.0",
+            "topic": "Topological Sort",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Graph Theory",
+                "Design",
+                "Topological Sort",
+                "Matrix"
+            ]
+        },
+        {
+            "id": 692,
+            "url": "https://leetcode.com/problems/top-k-frequent-words",
+            "title": "Top K Frequent Words",
+            "difficulty": "Medium",
+            "acceptance": "60.4",
+            "frequency": "50.0",
+            "topic": "Trie",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Trie",
+                "Sorting",
+                "Heap (Priority Queue)",
+                "Bucket Sort",
+                "Counting"
+            ]
+        },
+        {
+            "id": 721,
+            "url": "https://leetcode.com/problems/accounts-merge",
+            "title": "Accounts Merge",
+            "difficulty": "Medium",
+            "acceptance": "61.6",
+            "frequency": "50.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 737,
+            "url": "https://leetcode.com/problems/sentence-similarity-ii",
+            "title": "Sentence Similarity II",
+            "difficulty": "Medium",
+            "acceptance": "51.4",
+            "frequency": "50.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find"
+            ]
+        },
+        {
+            "id": 1046,
+            "url": "https://leetcode.com/problems/last-stone-weight",
+            "title": "Last Stone Weight",
+            "difficulty": "Easy",
+            "acceptance": "66.6",
+            "frequency": "50.0",
+            "topic": "Heap (Priority Queue)",
+            "topicTags": [
+                "Array",
+                "Heap (Priority Queue)"
+            ]
+        },
+        {
+            "id": 1258,
+            "url": "https://leetcode.com/problems/synonymous-sentences",
+            "title": "Synonymous Sentences",
+            "difficulty": "Medium",
+            "acceptance": "57.5",
+            "frequency": "50.0",
+            "topic": "Backtracking",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Backtracking",
+                "Sort",
+                "Union-Find"
+            ]
+        },
+        {
+            "id": 1326,
+            "url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden",
+            "title": "Minimum Number of Taps to Open to Water a Garden",
+            "difficulty": "Hard",
+            "acceptance": "51.0",
+            "frequency": "50.0",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Greedy"
+            ]
+        },
+        {
+            "id": 1396,
+            "url": "https://leetcode.com/problems/design-underground-system",
+            "title": "Design Underground System",
+            "difficulty": "Medium",
+            "acceptance": "74.5",
+            "frequency": "50.0",
+            "topic": "Design",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Design"
+            ]
+        },
+        {
+            "id": 1944,
+            "url": "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
+            "title": "Number of Visible People in a Queue",
+            "difficulty": "Hard",
+            "acceptance": "73.3",
+            "frequency": "62.5",
+            "topic": "Stack",
+            "topicTags": [
+                "Array",
+                "Stack",
+                "Monotonic Stack"
+            ]
+        },
+        {
+            "id": 2296,
+            "url": "https://leetcode.com/problems/design-a-text-editor",
+            "title": "Design a Text Editor",
+            "difficulty": "Hard",
+            "acceptance": "51.1",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "String",
+                "Stack",
+                "Design",
+                "Simulation",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 2939,
+            "url": "https://leetcode.com/problems/maximum-xor-product",
+            "title": "Maximum Xor Product",
+            "difficulty": "Medium",
+            "acceptance": "30.2",
+            "frequency": "50.0",
+            "topic": "Greedy",
+            "topicTags": [
+                "Math",
+                "Greedy",
+                "Bit Manipulation"
+            ]
+        },
+        {
+            "id": 3387,
+            "url": "https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions",
+            "title": "Maximize Amount After Two Days of Conversions",
+            "difficulty": "Medium",
+            "acceptance": "61.7",
+            "frequency": "50.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Graph Theory"
+            ]
+        },
+        {
+            "id": 3484,
+            "url": "https://leetcode.com/problems/design-spreadsheet",
+            "title": "Design Spreadsheet",
+            "difficulty": "Medium",
+            "acceptance": "73.9",
+            "frequency": "75.0",
+            "topic": "Design",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Design",
+                "Matrix"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [
+        {
+            "id": 4,
+            "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+            "title": "Median of Two Sorted Arrays",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Binary Search",
+            "topicTags": [
+                "Array",
+                "Binary Search",
+                "Divide and Conquer"
+            ]
+        }
+    ],
+    "sixMonths": [
+        {
+            "id": 4,
+            "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+            "title": "Median of Two Sorted Arrays",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Binary Search",
+            "topicTags": [
+                "Array",
+                "Binary Search",
+                "Divide and Conquer"
+            ]
+        }
+    ],
+    "moreThanSixMonths": [
+        {
+            "id": 3,
+            "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+            "title": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "acceptance": "39.4",
+            "frequency": "50.0",
+            "topic": "Sliding Window",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Sliding Window"
+            ]
+        },
+        {
+            "id": 4,
+            "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+            "title": "Median of Two Sorted Arrays",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Binary Search",
+            "topicTags": [
+                "Array",
+                "Binary Search",
+                "Divide and Conquer"
+            ]
+        },
+        {
+            "id": 21,
+            "url": "https://leetcode.com/problems/merge-two-sorted-lists",
+            "title": "Merge Two Sorted Lists",
+            "difficulty": "Easy",
+            "acceptance": "68.5",
+            "frequency": "62.5",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "Recursion"
+            ]
+        },
+        {
+            "id": 23,
+            "url": "https://leetcode.com/problems/merge-k-sorted-lists",
+            "title": "Merge k Sorted Lists",
+            "difficulty": "Hard",
+            "acceptance": "60.0",
+            "frequency": "75.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "Divide and Conquer",
+                "Heap (Priority Queue)",
+                "Merge Sort"
+            ]
+        },
+        {
+            "id": 56,
+            "url": "https://leetcode.com/problems/merge-intervals",
+            "title": "Merge Intervals",
+            "difficulty": "Medium",
+            "acceptance": "52.2",
+            "frequency": "50.0",
+            "topic": "Sorting",
+            "topicTags": [
+                "Array",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 146,
+            "url": "https://leetcode.com/problems/lru-cache",
+            "title": "LRU Cache",
+            "difficulty": "Medium",
+            "acceptance": "47.6",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Hash Table",
+                "Linked List",
+                "Design",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 347,
+            "url": "https://leetcode.com/problems/top-k-frequent-elements",
+            "title": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "acceptance": "66.8",
+            "frequency": "50.0",
+            "topic": "Heap (Priority Queue)",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "Divide and Conquer",
+                "Sorting",
+                "Heap (Priority Queue)",
+                "Bucket Sort",
+                "Counting",
+                "Quickselect"
+            ]
+        },
+        {
+            "id": 399,
+            "url": "https://leetcode.com/problems/evaluate-division",
+            "title": "Evaluate Division",
+            "difficulty": "Medium",
+            "acceptance": "64.4",
+            "frequency": "62.5",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find",
+                "Graph Theory",
+                "Shortest Path"
+            ]
+        },
+        {
+            "id": 460,
+            "url": "https://leetcode.com/problems/lfu-cache",
+            "title": "LFU Cache",
+            "difficulty": "Hard",
+            "acceptance": "49.7",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Hash Table",
+                "Linked List",
+                "Design",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 465,
+            "url": "https://leetcode.com/problems/optimal-account-balancing",
+            "title": "Optimal Account Balancing",
+            "difficulty": "Hard",
+            "acceptance": "50.5",
+            "frequency": "62.5",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Backtracking",
+                "Bit Manipulation",
+                "Bitmask"
+            ]
+        },
+        {
+            "id": 631,
+            "url": "https://leetcode.com/problems/design-excel-sum-formula",
+            "title": "Design Excel Sum Formula",
+            "difficulty": "Hard",
+            "acceptance": "39.6",
+            "frequency": "75.0",
+            "topic": "Topological Sort",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Graph Theory",
+                "Design",
+                "Topological Sort",
+                "Matrix"
+            ]
+        },
+        {
+            "id": 692,
+            "url": "https://leetcode.com/problems/top-k-frequent-words",
+            "title": "Top K Frequent Words",
+            "difficulty": "Medium",
+            "acceptance": "60.4",
+            "frequency": "50.0",
+            "topic": "Trie",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Trie",
+                "Sorting",
+                "Heap (Priority Queue)",
+                "Bucket Sort",
+                "Counting"
+            ]
+        },
+        {
+            "id": 721,
+            "url": "https://leetcode.com/problems/accounts-merge",
+            "title": "Accounts Merge",
+            "difficulty": "Medium",
+            "acceptance": "61.6",
+            "frequency": "50.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find",
+                "Sorting"
+            ]
+        },
+        {
+            "id": 737,
+            "url": "https://leetcode.com/problems/sentence-similarity-ii",
+            "title": "Sentence Similarity II",
+            "difficulty": "Medium",
+            "acceptance": "51.4",
+            "frequency": "50.0",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Union-Find"
+            ]
+        },
+        {
+            "id": 1046,
+            "url": "https://leetcode.com/problems/last-stone-weight",
+            "title": "Last Stone Weight",
+            "difficulty": "Easy",
+            "acceptance": "66.6",
+            "frequency": "50.0",
+            "topic": "Heap (Priority Queue)",
+            "topicTags": [
+                "Array",
+                "Heap (Priority Queue)"
+            ]
+        },
+        {
+            "id": 1258,
+            "url": "https://leetcode.com/problems/synonymous-sentences",
+            "title": "Synonymous Sentences",
+            "difficulty": "Medium",
+            "acceptance": "57.5",
+            "frequency": "50.0",
+            "topic": "Backtracking",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Backtracking",
+                "Sort",
+                "Union-Find"
+            ]
+        },
+        {
+            "id": 1326,
+            "url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden",
+            "title": "Minimum Number of Taps to Open to Water a Garden",
+            "difficulty": "Hard",
+            "acceptance": "51.0",
+            "frequency": "50.0",
+            "topic": "Dynamic Programming",
+            "topicTags": [
+                "Array",
+                "Dynamic Programming",
+                "Greedy"
+            ]
+        },
+        {
+            "id": 1396,
+            "url": "https://leetcode.com/problems/design-underground-system",
+            "title": "Design Underground System",
+            "difficulty": "Medium",
+            "acceptance": "74.5",
+            "frequency": "50.0",
+            "topic": "Design",
+            "topicTags": [
+                "Hash Table",
+                "String",
+                "Design"
+            ]
+        },
+        {
+            "id": 1944,
+            "url": "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
+            "title": "Number of Visible People in a Queue",
+            "difficulty": "Hard",
+            "acceptance": "73.3",
+            "frequency": "62.5",
+            "topic": "Stack",
+            "topicTags": [
+                "Array",
+                "Stack",
+                "Monotonic Stack"
+            ]
+        },
+        {
+            "id": 2296,
+            "url": "https://leetcode.com/problems/design-a-text-editor",
+            "title": "Design a Text Editor",
+            "difficulty": "Hard",
+            "acceptance": "51.1",
+            "frequency": "50.0",
+            "topic": "Linked List",
+            "topicTags": [
+                "Linked List",
+                "String",
+                "Stack",
+                "Design",
+                "Simulation",
+                "Doubly-Linked List"
+            ]
+        },
+        {
+            "id": 2939,
+            "url": "https://leetcode.com/problems/maximum-xor-product",
+            "title": "Maximum Xor Product",
+            "difficulty": "Medium",
+            "acceptance": "30.2",
+            "frequency": "62.5",
+            "topic": "Greedy",
+            "topicTags": [
+                "Math",
+                "Greedy",
+                "Bit Manipulation"
+            ]
+        },
+        {
+            "id": 3387,
+            "url": "https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions",
+            "title": "Maximize Amount After Two Days of Conversions",
+            "difficulty": "Medium",
+            "acceptance": "61.7",
+            "frequency": "62.5",
+            "topic": "Depth-First Search",
+            "topicTags": [
+                "Array",
+                "String",
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Graph Theory"
+            ]
+        },
+        {
+            "id": 3484,
+            "url": "https://leetcode.com/problems/design-spreadsheet",
+            "title": "Design Spreadsheet",
+            "difficulty": "Medium",
+            "acceptance": "73.9",
+            "frequency": "87.5",
+            "topic": "Design",
+            "topicTags": [
+                "Array",
+                "Hash Table",
+                "String",
+                "Design",
+                "Matrix"
+            ]
+        }
+    ]
+}

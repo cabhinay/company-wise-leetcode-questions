@@ -1,1 +1,67 @@
-{"all":[{"id":227,"url":"https://leetcode.com/problems/basic-calculator-ii","title":"Basic Calculator II","difficulty":"Medium","acceptance":"46.6","frequency":"100.0","topic":"Stack","topicTags":["Math","String","Stack"]},{"id":224,"url":"https://leetcode.com/problems/basic-calculator","title":"Basic Calculator","difficulty":"Hard","acceptance":"46.5","frequency":"100.0","topic":"Stack","topicTags":["Math","String","Stack","Recursion"]}],"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[{"id":227,"url":"https://leetcode.com/problems/basic-calculator-ii","title":"Basic Calculator II","difficulty":"Medium","acceptance":"46.6","frequency":"100.0","topic":"Stack","topicTags":["Math","String","Stack"]},{"id":224,"url":"https://leetcode.com/problems/basic-calculator","title":"Basic Calculator","difficulty":"Hard","acceptance":"46.5","frequency":"100.0","topic":"Stack","topicTags":["Math","String","Stack","Recursion"]}]}
+{
+    "all": [
+        {
+            "id": 224,
+            "url": "https://leetcode.com/problems/basic-calculator",
+            "title": "Basic Calculator",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Stack",
+            "topicTags": [
+                "Math",
+                "String",
+                "Stack",
+                "Recursion"
+            ]
+        },
+        {
+            "id": 227,
+            "url": "https://leetcode.com/problems/basic-calculator-ii",
+            "title": "Basic Calculator II",
+            "difficulty": "Medium",
+            "acceptance": "47.0",
+            "frequency": "87.5",
+            "topic": "Stack",
+            "topicTags": [
+                "Math",
+                "String",
+                "Stack"
+            ]
+        }
+    ],
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "moreThanSixMonths": [
+        {
+            "id": 224,
+            "url": "https://leetcode.com/problems/basic-calculator",
+            "title": "Basic Calculator",
+            "difficulty": "Hard",
+            "acceptance": "47.0",
+            "frequency": "100.0",
+            "topic": "Stack",
+            "topicTags": [
+                "Math",
+                "String",
+                "Stack",
+                "Recursion"
+            ]
+        },
+        {
+            "id": 227,
+            "url": "https://leetcode.com/problems/basic-calculator-ii",
+            "title": "Basic Calculator II",
+            "difficulty": "Medium",
+            "acceptance": "47.0",
+            "frequency": "87.5",
+            "topic": "Stack",
+            "topicTags": [
+                "Math",
+                "String",
+                "Stack"
+            ]
+        }
+    ]
+}
