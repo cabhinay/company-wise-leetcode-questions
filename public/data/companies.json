@@ -120,6 +120,18 @@
         }
     },
     {
+        "slug": "bloomberg",
+        "name": "Bloomberg",
+        "tier": "top-tech",
+        "counts": {
+            "all": 1213,
+            "thirtyDays": 0,
+            "threeMonths": 0,
+            "sixMonths": 381,
+            "moreThanSixMonths": 0
+        }
+    },
+    {
         "slug": "cisco",
         "name": "Cisco",
         "tier": "top-tech",
