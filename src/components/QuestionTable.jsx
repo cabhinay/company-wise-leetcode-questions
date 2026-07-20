@@ -1,13 +1,18 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import DifficultyBadge from './DifficultyBadge';
+import { useCompleted } from '../hooks/useCompleted';
 
 export default function QuestionTable({ questions, showCompanyTags, questionIndex, companiesMap }) {
   const [sortKey, setSortKey] = useState('frequency');
   const [sortDir, setSortDir] = useState('desc');
   const [diffFilter, setDiffFilter] = useState('All');
+  const [statusFilter, setStatusFilter] = useState('All');
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [topicDropdownOpen, setTopicDropdownOpen] = useState(false);
+  const [highlightId, setHighlightId] = useState(null);
   const dropdownRef = useRef(null);
+  const rowRefs = useRef(new Map());
+  const { isCompleted, toggle: toggleCompleted } = useCompleted();
 
   useEffect(() => {
     const handleClick = (e) => {
@@ -44,6 +49,8 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
   const sorted = useMemo(() => {
     let list = questions;
     if (diffFilter !== 'All') list = list.filter(q => q.difficulty === diffFilter);
+    if (statusFilter === 'Completed') list = list.filter(q => isCompleted(q.id));
+    else if (statusFilter === 'Incomplete') list = list.filter(q => !isCompleted(q.id));
     if (selectedTopics.length > 0) {
       list = list.filter(q => {
         const tags = q.topicTags || (q.topic ? [q.topic] : []);
@@ -51,6 +58,11 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
       });
     }
     return [...list].sort((a, b) => {
+      // Completed questions always sink to the bottom
+      const ca = isCompleted(a.id) ? 1 : 0;
+      const cb = isCompleted(b.id) ? 1 : 0;
+      if (ca !== cb) return ca - cb;
+
       let av, bv;
       if (sortKey === 'title') { av = a.title; bv = b.title; }
       else if (sortKey === 'id') { av = a.id; bv = b.id; }
@@ -65,9 +77,29 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
       if (av > bv) return sortDir === 'asc' ? 1 : -1;
       return 0;
     });
-  }, [questions, sortKey, sortDir, diffFilter, selectedTopics]);
+  }, [questions, sortKey, sortDir, diffFilter, statusFilter, selectedTopics, isCompleted]);
+
+  const completedCount = useMemo(
+    () => questions.reduce((n, q) => n + (isCompleted(q.id) ? 1 : 0), 0),
+    [questions, isCompleted]
+  );
 
   const arrow = (key) => sortKey === key ? (sortDir === 'asc' ? ' ↑' : ' ↓') : '';
+
+  const pickRandom = () => {
+    const pool = sorted.filter(q => !isCompleted(q.id));
+    if (pool.length === 0) {
+      setHighlightId(null);
+      return;
+    }
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    setHighlightId(pick.id);
+    window.open(pick.url, '_blank', 'noopener,noreferrer');
+    requestAnimationFrame(() => {
+      const el = rowRefs.current.get(pick.id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  };
 
   return (
     <div>
@@ -83,6 +115,29 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
             {d}
           </button>
         ))}
+
+        {/* Completion status filter */}
+        <div className="flex gap-1 ml-2 pl-2 border-l border-gray-300 dark:border-gray-700">
+          {['All', 'Completed', 'Incomplete'].map(s => (
+            <button
+              key={s}
+              onClick={() => setStatusFilter(s)}
+              className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+                statusFilter === s ? 'bg-emerald-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+              }`}
+            >
+              {s}
+            </button>
+          ))}
+        </div>
+
+        <button
+          onClick={pickRandom}
+          className="ml-2 px-3 py-1 rounded-md text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-500 transition-colors"
+          title="Pick a random unsolved question"
+        >
+          🎲 Pick Random
+        </button>
 
         {/* Topic multi-select */}
         <div className="relative ml-4" ref={dropdownRef}>
@@ -122,13 +177,17 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
           <button onClick={() => setSelectedTopics([])} className="text-xs text-gray-400 dark:text-gray-500 hover:text-red-400">Clear</button>
         )}
 
-        <span className="ml-auto text-sm text-gray-400 dark:text-gray-500">{sorted.length} questions</span>
+        <span className="ml-auto text-sm text-gray-400 dark:text-gray-500">
+          <span className="text-emerald-600 dark:text-emerald-400 font-medium">{completedCount}</span>
+          {' / '}{questions.length} done · {sorted.length} shown
+        </span>
       </div>
 
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-gray-500 dark:text-gray-400 border-b border-gray-200 dark:border-gray-800">
+              <th className="px-3 py-2 w-10">✓</th>
               <Th onClick={() => handleSort('id')}>#{ arrow('id')}</Th>
               <Th onClick={() => handleSort('title')} className="min-w-[200px]">Title{arrow('title')}</Th>
               <Th onClick={() => handleSort('difficulty')}>Difficulty{arrow('difficulty')}</Th>
@@ -139,15 +198,33 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
             </tr>
           </thead>
           <tbody>
-            {sorted.map(q => (
-              <tr key={q.id} className="border-b border-gray-200 dark:border-gray-800/50 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+            {sorted.map(q => {
+              const done = isCompleted(q.id);
+              const highlighted = q.id === highlightId;
+              return (
+              <tr
+                key={q.id}
+                ref={el => { if (el) rowRefs.current.set(q.id, el); else rowRefs.current.delete(q.id); }}
+                className={`border-b border-gray-200 dark:border-gray-800/50 hover:bg-gray-50 dark:hover:bg-gray-800/30 ${
+                  highlighted ? 'ring-2 ring-inset ring-indigo-500 bg-indigo-50 dark:bg-indigo-900/20' : done ? 'bg-emerald-50/60 dark:bg-emerald-900/10' : ''
+                }`}
+              >
+                <td className="px-3 py-2">
+                  <input
+                    type="checkbox"
+                    checked={done}
+                    onChange={() => toggleCompleted(q.id)}
+                    aria-label={`Mark "${q.title}" as completed`}
+                    className="w-4 h-4 rounded border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-emerald-500 focus:ring-emerald-500 cursor-pointer"
+                  />
+                </td>
                 <td className="px-3 py-2 text-gray-400 dark:text-gray-500">{q.id}</td>
                 <td className="px-3 py-2">
                   <a
                     href={q.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 hover:underline"
+                    className={`hover:underline ${done ? 'text-gray-400 dark:text-gray-500 line-through' : 'text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300'}`}
                   >
                     {q.title}
                   </a>
@@ -183,7 +260,8 @@ export default function QuestionTable({ questions, showCompanyTags, questionInde
                   </td>
                 )}
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
